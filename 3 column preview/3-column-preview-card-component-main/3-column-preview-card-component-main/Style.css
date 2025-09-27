@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    width: 999px;
+    height: 600px;
+}
+
+#div1 {
+    width: 333px;
+    height: 600px;
+    background-color: hsl(31, 77%, 52%);
+    padding-left: 50px;
+    padding-left: 50px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+#div2 {
+    width: 333px;
+    height: 600px;
+    background-color: hsl(184, 100%, 22%);
+    padding-left: 50px;
+}
+
+#div3 {
+    width: 333px;
+    height: 600px;
+    background-color: hsl(179, 100%, 13%);
+    padding-left: 50px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+img {
+    padding-top: 50px;
+    margin-bottom: 40px;
+    display: block;
+}
+
+b {
+    font-size: 30px;
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#p1 {
+    padding-top: 30px;
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 220px;
+    line-height: 1.6;
+}
+
+#p2 {
+    padding-top: 30px;
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 235px;
+    line-height: 1.6;
+}
+
+#p3 {
+    padding-top: 30px;
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 235px;
+    line-height: 1.6;
+}
+
+#button1 {
+    background-color: white;
+    width: 170px;
+    height: 55px;
+    margin-top: 130px;
+    border: none;
+    border-radius: 27px;
+    cursor: pointer;
+    font-size: 15px;
+    color: hsl(31, 77%, 52%);
+}
+
+#button2 {
+    background-color: white;
+    width: 170px;
+    height: 55px;
+    margin-top: 130px;
+    border: none;
+    border-radius: 27px;
+    cursor: pointer;
+    font-size: 15px;
+    color: hsl(184, 100%, 22%);
+}
+
+#button3 {
+    background-color: white;
+    width: 170px;
+    height: 55px;
+    margin-top: 130px;
+    border: none;
+    border-radius: 27px;
+    cursor: pointer;
+    font-size: 15px;
+    color: hsl(179, 100%, 13%);
+}
+
+#button1:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white
+}
+
+#button2:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white
+}
+
+#button3:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white
+}

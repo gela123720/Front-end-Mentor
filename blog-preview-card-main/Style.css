@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Figtree:ital,wght@0,300..900;1,300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Figtree;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+}
+#main{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    border-radius: 24px;
+    box-shadow: 5px 5px 0px;
+    padding: 20px;
+}
+#img-1{
+    border-radius: 12px;
+}
+button{
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+#p-1{
+    color: hsl(0, 0%, 7%);
+    margin: 15px 0;
+    font-weight: 600;
+}
+#header{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 15px 0;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+#header:hover{
+    color: hsl(47, 88%, 63%);
+}
+#p-2{
+    width: 301px;
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+}
+#div-1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+#img-2{
+    width: 35px;
+    height: 35px;
+}
+#p-3{
+    font-weight: 700;
+    color: hsl(0, 0%, 7%);
+}

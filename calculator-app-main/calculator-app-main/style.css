@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: League Spartan;
+    font-weight: 700;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(222, 26%, 31%);
+    gap: 15px;
+}
+
+#div1 {
+    height: 230px;
+    width: 500px;
+}
+
+#child_div1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.father_div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#p1 {
+    font-size: 30px;
+    color: white;
+}
+
+#baby_div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#button1 {
+    width: 60px;
+    height: 20px;
+}
+
+#p2 {
+    font-size: 20px;
+    color: white;
+}
+
+#child_div2 {
+    height: 160px;
+    width: 500px;
+    background-color: hsl(224, 36%, 15%);
+    border-radius: 13px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 70px;
+    padding: 30px;
+    color: white;
+}
+
+#child_div3 {
+    width: 100px;
+    height: 25px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px;
+}
+
+#baby_div2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+}
+
+#baby_div3 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.small {
+    color: white;
+}
+
+#div2 {
+    height: 450px;
+    width: 500px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 13px;
+    display: grid;
+    grid-template-rows: repeat(5 , 1fr);
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 25px;
+    padding: 25px;
+}
+
+#div2 button {
+    border-radius: 10px;
+    border: none;
+    border-bottom: 4px solid hsl(28, 16%, 65%);
+    background-color: #eae3dc;
+    font-size: 30px;
+    color: hsl(222, 26%, 31%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#reset {
+    grid-column: 1 / 3;
+}
+
+#tolia {
+    grid-column: 3 / 5;
+}
+
+#d7:hover {
+    background-color: white;
+}
+
+#d8:hover {
+    background-color: white;
+}
+
+#d9:hover {
+    background-color: white;
+}
+
+#d4:hover {
+    background-color: white;
+}
+
+#d5:hover {
+    background-color: white;
+}
+
+#d6:hover {
+    background-color: white;
+}
+
+#mimateba:hover {
+    background-color: white;
+}
+
+#d1:hover {
+    background-color: white;
+}
+
+#d2:hover {
+    background-color: white;
+}
+
+#d3:hover {
+    background-color: white;
+}
+
+#gamokleba:hover {
+    background-color: white;
+}
+
+#wertili:hover {
+    background-color: white;
+}
+
+#d0:hover {
+    background-color: white;
+}
+
+#gayofa:hover {
+    background-color: white;
+}
+
+#x:hover {
+    background-color: white;
+}
+
